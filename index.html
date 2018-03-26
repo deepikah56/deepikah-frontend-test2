@@ -14,13 +14,13 @@
 <body>
 	<div class="container-fluid container" >
 		<div class="row">
-			<div class="col-sm-2">
+			<div class="col-md-2">
 				<img src="images/logo.png" alt="logo" class="logo">
 			</div>
-			<div class="col-sm-8" style="text-align: center;margin-top: 40px;font-weight: bold;">
+			<div class="col-md-8" style="text-align: center;margin-top: 40px;font-weight: bold;">
 				<span class="title">NDRK INSTITUTE OF TECHNOLOGY</span>
 			</div>
-			<div class="col-sm-2" style="margin-top:45px;">
+			<div class="col-md-2" style="margin-top:45px;">
 				<a href="https://www.facebook.com/"><i class="fa fa-facebook-official icons" aria-hidden="true"></i></a>
 				<a href="https://www.twitter.com/"><i class="fa fa-twitter-square icons" aria-hidden="true"></i></a>
 				<a href="https://www.gmail.com/"><i class="fa fa-envelope icons" aria-hidden="true"></i></a>
@@ -28,15 +28,13 @@
 		</div>
 		<div class="row" style="margin-top:10px;">
 			<ul class="nav nav-tabs" style="border-bottom: 1px solid #ddd;background: #afafee;padding-left: 10%;">
-				<li ><a class="arrow" data-toggle="tab" href="#home" aria-expanded="false" 
-				id="home_nav">Home</a></li>
-				<li ><a class="arrow" data-toggle="tab" href="#about" aria-expanded="true" 
-				id="about_nav">About Us</a></li>
+				<li ><a class="arrow" data-toggle="tab" href="#home" aria-expanded="false">Home</a></li>
+				<li ><a class="arrow" data-toggle="tab" href="#about" aria-expanded="true">About Us</a></li>
 				<li><a class="" data-toggle="dropdown" href="#">Products<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a href="#">watches</a></li>
-						<li><a href="#">dress</a></li>
-						<li><a href="#">slipers</a></li>                        
+						<li><a href="#">Submenu 1</a></li>
+						<li><a href="#">Submenu 1</a></li>
+						<li><a href="#">Submenu 1</a></li>                        
 					</ul>
 				</li>
 				<li><a class="arrow" data-toggle="tab" href="#contact">Contact</a></li>
@@ -44,13 +42,13 @@
 			</ul>
 		</div>
 			<div class="tab-content">
-				<div id="home">
+				<div id="home" class="tab-pane fade in active">
 				<div class="row" style="margin-top:30px;">
 						<div id="slide">
 							<div class="slideshow-container">
-								<div class="mySlides "> <img src="images/1.jpg"> </div>
-								<div class="mySlides "> <img src="images/2.jpg"> </div>
-								<div class="mySlides "> <img src="images/3.jpg"> </div>
+								<div class="mySlides fade"> <img src="images/1.jpg" style="width:100%;height:400px;"> </div>
+								<div class="mySlides fade"> <img src="images/2.jpg" style="width:100%;height:400px;"> </div>
+								<div class="mySlides fade"> <img src="images/3.jpg" style="width:100%;height:400px;"> </div>
 								<a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next" onclick="plusSlides(1)">&#10095;</a> 
 							</div>
 							<br>
@@ -58,8 +56,8 @@
 								<span class="dot" onclick="currentSlide(1)">1</span> 
 								<span class="dot" onclick="currentSlide(2)">2</span> 
 								<span class="dot" onclick="currentSlide(3)">3</span>
-								<a  onclick="plusSlides(-1)" class="dot">Previous</a> 
-								<a  onclick="plusSlides(1)" class="dot">Next</a>
+								<a  onclick="plusSlides(-1)">Previous</a> 
+								<a  onclick="plusSlides(1)">Next</a>
 							</div>
 						</div>
 				</div>
@@ -68,30 +66,29 @@
 					<input type="search" placeholder="Search"  style="float:right;">
 				</form>
 						<div class="row">
-							<div class="col-sm-4" style="margin-top:40px;">
+							<div class="col-md-4" style="margin-top:40px;">
 							<p style="text-align:justify;">NDRK Institute of Technology was established in the year 2009 which is affiliated to Visvesvaraya Technological University and approved by AICTE, New Delhi to offer courses in the field of engineering to explore the hidden talents of the youth and shaping their personality in a professional manner</p>
-								<button class="btn btn-primary" id="pic">Info</button>
+								<button class="btn btn-primary">Info</button>
 							</div>
-							<div class="col-sm-4" style="margin-top:40px;">
+							<div class="col-md-4" style="margin-top:40px;">
 							<p style="text-align:justify;">NDRK Institute of Technology was established in the year 2009 which is affiliated to Visvesvaraya Technological University and approved by AICTE, New Delhi to offer courses in the field of engineering to explore the hidden talents of the youth and shaping their personality in a professional manner</p>
-								<button class="btn btn-primary" id="pic1">Info</button>
+								<button class="btn btn-primary">Info</button>
 							</div>
-							<div class="col-sm-4">
+							<div class="col-md-4">
 							<p style="text-align:justify;">
 							NDRK Institute of Technology was established in the year 2009 which is affiliated to Visvesvaraya Technological University and approved by AICTE, New Delhi to offer courses in the field of engineering to explore the hidden talents of the youth and shaping their personality in a professional manner</p>
-								<button class="btn btn-primary" id="pic2">Info</button>
+								<a id="about" ><button class="btn btn-primary">Info</button></a>
 							</div>
 						</div>
 						<div class="row" style="margin-top:30px;">
-							<div class="col-sm-5">
+							<div class="col-md-5">
 								<img src="images/1.jpg" style="width:100%;">
 							</div>
-							<div class="col-sm-7">
+							<div class="col-md-7">
 								<p style="text-align:justify;">NDRK Institute Of Technology is situated in Hassan in Karnataka state of India. it is accredited from DTE, AICTE and it is affiliated to Visvesvaraya Technological University. NDRKIT, Hassan offers 6 courses across 1 streams namely Engineering and across 2 degrees like B.Tech, Diploma.Hostel facility is available for its students. Additional campus facilities such as Audi, Boys Hostel, Comp. Lab, Guest house, Gymkhana, Mess, Lib, Medical Fac., Cls. Room, Sports are also there.About the College The Institute campus is about 8 Km from the bus-stand and about 10 Km from the railway station. Hassan (known as poor man's Ooty) is located on the National Highway (NH - 48)of Bangalore – Mangalore and about 185 Km from Bangalore. It is a business center and is well known for its world famous ...</p>
 							</div>
 						</div>
-						<p style="text-align:justify;">he college posseses very good infrastructure and faculty.Apart from regular teaching, the faculty of the college are actively involved in professional consultation, sponsered projects and researchs.Thus providing scope for industry-institute interaction.Many innovative practices like faculty appraisal system, faculty training programmes, research council and departmental advisory bodies will be formed by the college to add more value to the education being imparted.The ambience and opportunites are provided not only through the formal courses in the class rooms but also to rub shoulders with technical professionals and research scholars in the society.Smart campus methodology is adopted for providing the students with facilites comparable to the best standards across the globe.<button class="btn btn-primary" 
-						id="demo" >More</button></p>
+						<p style="text-align:justify;">he college posseses very good infrastructure and faculty.Apart from regular teaching, the faculty of the college are actively involved in professional consultation, sponsered projects and researchs.Thus providing scope for industry-institute interaction.Many innovative practices like faculty appraisal system, faculty training programmes, research council and departmental advisory bodies will be formed by the college to add more value to the education being imparted.The ambience and opportunites are provided not only through the formal courses in the class rooms but also to rub shoulders with technical professionals and research scholars in the society.Smart campus methodology is adopted for providing the students with facilites comparable to the best standards across the globe.<button class="btn btn-primary" >More</button></p>
 						<div class="row" style="background:#afafee;padding:10px;">
 						<div class="col-sm-offset-1 col-md-2" style="margin-top:3%;">
 							<a href="https://www.facebook.com/"><i class="fa fa-facebook-official icons" aria-hidden="true"></i></a>
@@ -103,16 +100,16 @@
 						</div>
 						<div class="col-sm-2">
 						phone:9988776612
-						Address:no #31 5th cross Jaynagar hassan
+						Address:no #31 5th cross kandli hassan
 						</div>
 				</div>
 				</div>
-					<div id="about">
+					<div id="about" class="tab-pane fade ">
 							<div class="row" style="margin-top:30px;">
-							<div class="col-sm-5">
+							<div class="col-md-5">
 								<img src="images/1.jpg" style="width:100%;">
 							</div>
-							<div class="col-sm-7">
+							<div class="col-md-7">
 								<p style="text-align:justify;">NDRK Institute Of Technology is situated in Hassan in Karnataka state of India. it is accredited from DTE, AICTE and it is affiliated to Visvesvaraya Technological University. NDRKIT, Hassan offers 6 courses across 1 streams namely Engineering and across 2 degrees like B.Tech, Diploma.Hostel facility is available for its students. Additional campus facilities such as Audi, Boys Hostel, Comp. Lab, Guest house, Gymkhana, Mess, Lib, Medical Fac., Cls. Room, Sports are also there.About the College The Institute campus is about 8 Km from the bus-stand and about 10 Km from the railway station. Hassan (known as poor man's Ooty) is located on the National Highway (NH - 48)of Bangalore – Mangalore and about 185 Km from Bangalore. It is a business center and is well known for its world famous Yagachi Institute Of Technology, Hassan was established in the year 2009. College is governed by Yagachi Educational Research Trust. Apart from the teaching, college faculty is actively involved in professional consultation and research.
 
 								College is Visvesvaraya Technological University and is approved by AICTE
@@ -127,11 +124,9 @@
 							</div>
 						</div>
 					</div>
-					<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up">
-						</span></a>
-					
+					<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
 			</div>
-				
+			
 	</div>
 </body>
 	<script>
@@ -153,7 +148,7 @@ function showSlides() {
     }
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 15000); // Change image every 2 seconds
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 
 function plusSlides(position) {
@@ -196,39 +191,13 @@ $(document).ready(function(){
             $('#back-to-top').tooltip('hide');
             $('body,html').animate({
                 scrollTop: 0
-            }, 500);
+            }, 800);
             return false;
         });
         
         $('#back-to-top').tooltip('show');
+	
 
-        $("#demo").click(function(){
-       
-        	$("#about").show();
-        	$("#home").hide();
-        });
-        $("#about").hide();
-		$("#about_nav").click(function(){
-		$("#about").show();
-		$("#home").hide();
-	});
-	$("#home_nav").click(function(){
-
-			$("#home").show();
-			$("#about").hide();
-	});
-	$("#pic").click(function(){
-        	$("#about").show();
-        	$("#home").hide();
-        });
-	$("#pic1").click(function(){
-        	$("#about").show();
-        	$("#home").hide();
-        });
-	$("#pic2").click(function(){
-        	$("#about").show();
-        	$("#home").hide();
-        });
 });
 </script>
 </div>
